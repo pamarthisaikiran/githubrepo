@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.li-repo {
+  width: 300px;
+  list-style-type: none;
+  background-color: #f8f8ff;
+  border-radius: 20px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img1 {
+  width: 50%;
+}
+.li-repo-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img2 {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.repo-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #e73959;
+  font-weight: 600;
+}
+.para {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+@media (max-width: 576px) {
+  .repo-heading {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #e73959;
+    font-weight: 900;
+  }
+  .para {
+    color: #1e293b;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .button {
+    font-size: 12p;
+  }
+}

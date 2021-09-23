@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.list-button {
+  list-style-type: none;
+  text-align: center;
+}
+.button {
+  background-color: transparent;
+
+  color: black;
+  font-size: 24px;
+  font-family: 'Roboto';
+  border-width: 0px;
+  font-weight: 600;
+}
+
+.button-active {
+  background-color: transparent;
+
+  color: #0284c7;
+  font-size: 24px;
+  font-family: 'Roboto';
+  border-width: 0px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 2px solid #0284c7;
+}
+
+@media (max-width: 576px) {
+  .button {
+    font-size: 16px;
+  }
+}
